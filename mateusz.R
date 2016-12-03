@@ -54,7 +54,7 @@ for(i in 1:length(patients)) {
   }
 }
 
-patients_pp[, prop:=bt/(bt+at)]
+patients_pp[(bt+at)/60>23]
 
 
 
